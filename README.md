@@ -1,12 +1,13 @@
 # Spikemax Loss and suppressed loss for Spiking neural network
-**What is this repository for?**
+
+## **What is this repository for?**
 
 spike-based negative log-likelihood-based losses suitable to train an SNN for classification tasks.
 
-**Usage**
+## **Usage**
 
-This loss can be easily implemented by replacing this with the loss layer. You can also directly implement it into SLayer framework 
- https://github.com/bamsumit/slayerPytorch. The Spikemax loss code can also be found at https://github.com/lava-nc/lava-dl/blob/main/src/lava/lib/dl/slayer/loss.py.
+This loss can be easily implemented by replacing this with the loss layer. You can also directly implement it into [SLayer framework](https://github.com/bamsumit/slayerPytorch) 
+. The Spikemax loss code can also be found at this [link](https://github.com/lava-nc/lava-dl/blob/main/src/lava/lib/dl/slayer/loss.py.).
 
 error = spikeLoss(netParams).to(device)
 
@@ -18,9 +19,9 @@ loss.backward()
 
 In this context, "output" refers to the network's output, "target" represents the network's label, and "mem" corresponds to the membrane potential of the final layer. The parameter "alpha" is set to its default value of 0.1.
 
-**Papers**
+## **Papers**
 
-Spikemax loss
+Spikemax loss [Paper](https://ieeexplore.ieee.org/abstract/document/9892379)
 
 @inproceedings{shrestha2022spikemax,
   title={Spikemax: Spike-based loss methods for classification},
@@ -32,7 +33,7 @@ Spikemax loss
 }
 
 
-Suppressed loss
+Suppressed loss[Paper](https://www.frontiersin.org/articles/10.3389/fnins.2023.1275944/full)
 
 @article{sun2023learnable,
   title={Learnable axonal delay in spiking neural networks improves spoken word recognition},
