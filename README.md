@@ -23,6 +23,8 @@ In this context, "output" refers to the network's output, "target" represents th
 
 Spikemax loss [Paper](https://ieeexplore.ieee.org/abstract/document/9892379)
 
+
+```bibtex
 @inproceedings{shrestha2022spikemax,
   title={Spikemax: Spike-based loss methods for classification},
   author={Shrestha, Sumit Bam and Zhu, Longwei and Sun, Pengfei},
@@ -31,10 +33,11 @@ Spikemax loss [Paper](https://ieeexplore.ieee.org/abstract/document/9892379)
   year={2022},
   organization={IEEE}
 }
-
+```
 
 Suppressed loss[Paper](https://www.frontiersin.org/articles/10.3389/fnins.2023.1275944/full)
 
+```bibtex
 @article{sun2023learnable,
   title={Learnable axonal delay in spiking neural networks improves spoken word recognition},
   author={Sun, Pengfei and Chua, Yansong and Devos, Paul and Botteldooren, Dick},
@@ -42,3 +45,4 @@ Suppressed loss[Paper](https://www.frontiersin.org/articles/10.3389/fnins.2023.1
   volume={17},
   year={2023},
   publisher={Frontiers Media SA}}
+```
