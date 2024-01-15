@@ -32,7 +32,7 @@ Spikemax loss
 }
 
 
-suppressed loss
+Suppressed loss
 
 @article{sun2023learnable,
   title={Learnable axonal delay in spiking neural networks improves spoken word recognition},
