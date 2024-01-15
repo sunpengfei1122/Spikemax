@@ -5,7 +5,8 @@ spike-based negative log-likelihood-based losses suitable to train an SNN for cl
 
 **Usage**
 
-This loss can be easily implemented by replacing this with a loss layer.
+This loss can be easily implemented by replacing this with the loss layer. You can also directly implement it into SLayer framework 
+ https://github.com/bamsumit/slayerPytorch. The Spikemax loss code can also be found at https://github.com/lava-nc/lava-dl/blob/main/src/lava/lib/dl/slayer/loss.py.
 
 error = spikeLoss(netParams).to(device)
 
@@ -15,7 +16,7 @@ loss_supressed =  alpha * error.loss_mem(output, target, mem)
 
 loss.backward()
 
-Here, the output is the networks' output, the target is the networks' label, and mem is the membrane potential of the last layer.
+In this context, "output" refers to the network's output, "target" represents the network's label, and "mem" corresponds to the membrane potential of the final layer. The parameter "alpha" is set to its default value of 0.1.
 
 **Papers**
 
